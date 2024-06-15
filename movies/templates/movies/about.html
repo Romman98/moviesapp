@@ -1,0 +1,11 @@
+{% extends 'movies/_base.html' %}
+
+<html>
+    <body>
+        {% block content %}
+        <h1>I like comedy movies</h1>
+        {% load static %}
+        <img style="width: 100px;" src="{% static 'movies/ztm.png' %}" alt="ztm">
+        {% endblock %}
+    </body>
+</html>
